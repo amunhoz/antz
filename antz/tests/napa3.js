@@ -1,6 +1,9 @@
-const packetWork = require('../lib/packetWork.js');
+
+const packetWorkClass = require('../lib/packetWork.js'); 
+const packetWork = new packetWorkClass(4)
+
 const xxtea = require('xxtea-node'); 
-class testNapa {
+class testNapa { //just calling it from a class to simulate the antz enviroment
   constructor () {
 
   }
@@ -12,10 +15,11 @@ class testNapa {
     console.log(result2);
   }
 }
+
 //start test
 start()
 async function start () {
   var data = new testNapa();
   await data.test();
-  console.log("foi")
+  console.log("success")
 }
