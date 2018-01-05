@@ -1,0 +1,36 @@
+{
+  "name": "msgmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bytebuffer": "^5.0.1",
+    "crypto": "^1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "elapsed-time": "0.0.1",
+    "fast-crc32c": "^1.0.4",
+    "hasha": "^3.0.0",
+    "is-buffer": "^1.1.6",
+    "md5": "^2.2.1",
+    "moment": "^2.20.1",
+    "nanomsg": "^4.0.1",
+    "napajs": "^0.1.8",
+    "node-schedule": "^1.2.5",
+    "pako": "^1.0.6",
+    "pbf": "^3.1.0",
+    "pretty-error": "^2.1.1",
+    "promise-synchronizer": "^1.0.7",
+    "protocol-buffers-schema": "^3.3.2",
+    "sleep-promise": "^2.0.0",
+    "snappy": "^6.0.1",
+    "snappyjs": "^0.6.0",
+    "sort-object-keys": "^1.1.2",
+    "url-parse": "^1.2.0",
+    "xxtea-node": "^1.1.2"
+  }
+}

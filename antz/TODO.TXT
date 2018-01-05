@@ -1,0 +1,14 @@
+OK: * mensagens para grupos
+  - classe groupMsg
+  - evento groupMsg
+  - round robin e prioridade?
+  - poder negar job?
+---falta testar
+OK * Renomear eventos principais para msg, busmsg, groupmsg:OK
+OK * atalho para negar request com answer: OK
+OK * Ter o validation text junto com a key, sempre a key composta por duas chaves.
+
+
+* custom encrypt algoritim from peer config
+* custom compression from peer config (snnapy, zlib e zstd)
+* Separar conexão bus listen e connect, permitir várias connect.  Controlar peers separados por master, enviar completo para conectados.

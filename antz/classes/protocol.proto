@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+message transfer {
+  //system details
+  required string uid = 1;
+  required string from = 2;
+  
+  //data details
+  required string type = 3;
+  required bool compressed = 4;
+  required bytes validate = 5 ;  
+    
+  //message params
+  required int32 params = 6; 
+
+  //command   
+  required string cmd = 7;
+  
+  //full data  
+  optional bytes data = 8;
+
+  
+  
+}
+
+
+
